@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="241mm"
+   height="175mm"
+   viewBox="0 0 241 175"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="Diagonal-Letter.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid925" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1210"
+       transform="translate(1.5316894,-9.9433402)">
+      <rect
+         style="fill:#631e1e;fill-opacity:1;stroke:none;stroke-width:0.280904;stroke-opacity:0.992157"
+         id="rect234"
+         width="30.694981"
+         height="87.549644"
+         x="31.128576"
+         y="56.321644"
+         transform="matrix(1,0,0.46144139,0.8871707,0,0)" />
+      <rect
+         style="fill:#631e1e;fill-opacity:1;stroke:none;stroke-width:0.280898;stroke-opacity:0.992157"
+         id="rect921"
+         width="19.374355"
+         height="55.269833"
+         x="63.291389"
+         y="88.595352"
+         transform="matrix(1,0,0.46136291,0.88721151,0,0)" />
+      <rect
+         style="fill:#631e1e;fill-opacity:1;stroke:none;stroke-width:0.281355;stroke-opacity:0.992157"
+         id="rect923"
+         width="14.018013"
+         height="43.109444"
+         x="83.220711"
+         y="101.22295"
+         transform="matrix(1,0,0.46686334,0.88432948,0,0)" />
+    </g>
+  </g>
+</svg>
