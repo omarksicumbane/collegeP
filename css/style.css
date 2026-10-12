@@ -12,10 +12,13 @@
 }
 h2{
     font-weight: 200;
-   
+    font-size: 32px;
 }
 p{
     color: #4d4c4c;
+      
+        font-size: 18px;
+    
 }
 hr{
     margin-top: 10px;
@@ -25,8 +28,9 @@ hr{
 
 /*Header*/
 header{
+     
     .logo{
-        font-size:20px   ;
+        font-size:24px   ;
         font-weight: 800;
         color:rgb(11, 143, 184);
       span{
@@ -39,7 +43,8 @@ header{
     z-index: 1000;
     background: rgb( 225,225,225,0.5) ;
     backdrop-filter: blur(2px);
-    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     nav{
         display: flex;
         justify-content: space-between;
@@ -60,42 +65,70 @@ header{
         border: 0;
         border-radius:10px;
     }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a{
+            color: black;
+        }
+        li{
+            align-items: center;
+            display: flex;
+            gap: 5px;
+            font-size: 19px;
+        }
+    }
+    .home-class{
+        font-weight: 700;
+        color: rgb(11, 143, 184);
+    }
 }
 
 /*Hero*/
 .hero-section{
     min-height: 80vh;
-    background-image: url(); 
+    background-image: url( ); 
     background-position: center;   
     background-size: cover;
     padding: 20px;
 }
 .hero-text{
     padding-top: 100px;
-    max-width: 40.4%;
+    max-width: 56%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    
+    p{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 60PX;
+    }
     .hero-buttons{
         display: flex;
         gap: 20px;
-        border: 1px solid  #FF8C00;
-        max-width: 47.9%;
-        padding: 5px;
-        border-radius: 30px;
+        
+        .start-cta{
+            background: #FF8C00;
+        }
+        .speak-cta{
+            border: 2px solid rgb(11, 143, 184);
+            background: transparent;
+        }
+      
+
         button{
             padding: 10px;
             border: none;
-            border-radius: 20px;
+            border-radius: 8px;
             a{
-                color: #4d4c4c;
+                color: #202020;
                 text-transform: uppercase;
             }
         }
-        button:hover{
-            background: #fa8d07 ;
-        }
+         
     }
 }
 .info ul{
@@ -122,43 +155,40 @@ header{
  
 .artigos{
      padding: 20px;
-    heiht: 100vh;
+ 
     h2{
         margin-bottom: 18px;
+         
     }
     .hosting-article1{
         display: flex;
         flex-direction: column;
         gap: 20px;
-         position: relative;
-         img{
-            position: absolute;
-            right: 9%;
-            top: 9%;
-         }
+         
 
       .hosting-list{
          ul{
             display: grid;
            grid-template-columns: repeat(2,1fr);
            list-style: none;
-           gap: 30px;
-           max-width: 45%;
+           gap: 10px;
+           max-width: 90%;
            padding-left: 0;
+             bordr: 1px solid;
            li{
              padding: 10px;
              border-left: px solid #FF8C00;      
              h3{
                 margin-bottom: 8px;
                 text-transform: uppercase;
-                font-size: 14px;
+                
              }
              p{
                 color: #4d4c4c;
              }
              svg{
                 margin-bottom: 10px;
-                color: #FF8C00;
+                color: rgb(11, 143, 184);
                 width: 28px;
                 height: 28px;
              }
@@ -168,7 +198,7 @@ header{
 }
 
         .hosting-text{
-            max-width: 60%;
+            max-width: 90%;
             h3{
                 margin-bottom: 10px;
                 font-weight: 500;
@@ -183,7 +213,6 @@ header{
                 font-weight: 500;
                 text-transform: uppercase;
             }
-     
 
 }
          .hosting-text3{
@@ -198,7 +227,9 @@ header{
 .hosting-main{
     margin: 20px;
     border-radius: 20px;
-    
+    display: flex;
+    align-items: center;
+     
 }
 .hosting-main3{
     margin: 20px;
@@ -229,15 +260,17 @@ header{
         align-items: center;
         gap: 8px;
         svg{
-            color:  #FF8C00;
+            color:  rgb(11, 143, 184);
         }
     }
 }
 }
 .qq{
-    bordEr: 1px solid;
+    padding-top: 10px;
+     box-shadow: 0 0 12px 0px  ;
+    bordr: 1px solid;
     border-radius: 10px;
-    margin:0 40px 0 40px ;
+    marin:0 40px 0 40px ;
        background: #ececec;
     
 }
@@ -261,34 +294,42 @@ header{
     }
     ul{
         list-style: none;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding-left: 0;
-       
+        gap: 20PX;
+
     }
     li{
         border-radius: 10px;
         padding: 20px;
-        max-width: 70%;
         background: #f5f5f5;
         box-shadow: 0 0 12px 0px  ;
         h3{
             margin-bottom: 10px;
              font-weight: 500;
+             font-size: 24px;
         }
         p{
             margin-bottom: 15px;
         }
-        img{
+        svg{
             margin-bottom: 10px;
-            color: #FF8C00;
+            color: rgb(11, 143, 184);
         }
         a{
-            color: #ec8507;
+            color: rgb(11, 143, 184);
         }
         a:hover{
             text-decoration: underline;
         }
+    }
+    .know-more{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+         
     }
 }
 
@@ -304,7 +345,7 @@ footer{
     padding: 20px;
     article{
         display: flex;
-        justify-content: space-between;
+      justify-content: space-around;
         align-items: center;
     }
     ul{
@@ -340,7 +381,7 @@ footer{
 }
 .rights{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0 20px 0 0 ;
     }
 .social-media{

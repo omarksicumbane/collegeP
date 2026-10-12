@@ -1,0 +1,58 @@
+@media (min-width: 0px) and (max-width: 480px) {
+    .hero-text{
+        max-width: 90%;
+    }
+    header{
+        ul li{
+            display: none;
+        }
+    }
+    .hosting-main{
+         flex-direction: column;
+}
+    .hosting-main2{
+        flex-direction: column;
+}
+    .hosting-list{
+        ul{
+            
+    }
+}
+    .hosting-text{
+        max-width: 220%;
+    }
+    .hosting-article3{
+        flex-direction: column;
+}
+
+    .hosting-text2{
+            max-wdth: 50%;
+        }
+           .email-div{
+                ul{
+                    flex-direction: column;
+            }
+        }
+    .solution-sec{
+        ul{
+             
+        }
+    }
+
+    footer{
+        article{
+            flex-direction: column;
+        }
+        .rights{
+            flex-direction: column;
+             
+        }
+    }
+    .hero-buttons{
+       border: 0;
+    }
+    .content-pics{
+        width: 200;
+        height: 200;
+    }
+}
